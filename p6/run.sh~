@@ -1,0 +1,6 @@
+python count_freqs.py ner_train.dat > ner.counts
+python problem6.py
+python count_freqs.py ner_train1.dat > ner_more.counts
+python Problem62.py
+
+python eval_ne_tagger.py ner_dev.key prediction_filep6
